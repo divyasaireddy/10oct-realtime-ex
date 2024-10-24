@@ -3,12 +3,12 @@
 // Scenario: Giving a Product Rating.The user rates products on Amazon,
 //  simulating the rating process using a loop.
 
-let userInput=prompt("enter the rating of " + items[i] +  " out of 5:");
-
 const items=["Phone","Laptop","watch"]
+
 let rating=[];
 
 for(let i=0;i<items.length;i++){
+// let userInput=prompt("enter the rating of " + items[i] +  " out of 5:");
 let userInput=prompt("enter the rating of " + items[i] +  " out of 5:");
 
     if(userInput>=0 && userInput<=5){
